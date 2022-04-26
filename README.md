@@ -1,2 +1,2 @@
 # html-creator
-<h1 style="color=red;">Write HTML in kotlin!</h1>
+<h2 style="background: #ff0000;">Write HTML in kotlin!</h2>
