@@ -1,2 +1,7 @@
+[![Official JetBrains Project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+
+
 # html-creator
-<h2 style="background: #ff0000;">Write HTML in kotlin!</h2>
+
+a android project for write HTML in kotlin code, you can show page in webView or extract code for other useage.
+ 
