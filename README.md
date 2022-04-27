@@ -22,27 +22,18 @@ val bodyStyle = Style.Builder()
 fun webApp(args: String) = Index.html {
             
             head {
-                <title> +args </title>
-                link {
-                    rel = "stylesheet"
-                    href = "w3c.com/css"
-                }
-
-                meta {
-                    charset = "UTF-8"
-                }
-
-                meta {
-                    name = "viewport"
-                    content = "width=device-width, initial-scale=1.0"
-                }
+                title{ +args }
+                link { rel = "stylesheet" href = "w3c.com/css" }
+                meta { charset = "UTF-8" }
+                meta { name = "viewport" content = "width=device-width, initial-scale=1.0" }
             }
             body {
                 style = bodyStyle
+                
                 h1 { +"title of h1: $args" }
-                p {
-                    +"this is first paragraph."
-                }
+                
+                p { +"this is first paragraph." }
+                
                 p { +"this is first paragraph." }
 
             }
