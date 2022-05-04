@@ -21,6 +21,28 @@ Add it in your root build.gradle at the end of repositories:
  
  ```
  
+ Or if you using new gradle plugin managment system add it in your settings.gradle
+ 
+ ```
+ pluginManagement {
+
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url 'https://jitpack.io' }
+    }
+}
+ ```
+ 
 Step 2. Add the dependency
 
 ```
