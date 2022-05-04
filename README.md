@@ -4,6 +4,29 @@
 # html-creator
 
 a android project for write HTML & CSS in kotlin code, you can show page in webView or extract code for other useage.
+
+
+# How to use
+
+Add it in your root build.gradle at the end of repositories:
+
+```
+	allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+ 
+ ```
+ 
+Step 2. Add the dependency
+
+```
+	dependencies {
+	        implementation 'com.github.hamidamirhajlo:html-creator:v1.0.0'
+	}
+```
  
 # Get started
 
