@@ -1,4 +1,5 @@
-[![Official JetBrains Project](https://jb.gg/badges/official.svg)](https://confluence.jetbrains.com/display/ALL/JetBrains+on+GitHub)
+[![](https://jitpack.io/v/hamidamirhajlo/html-creator.svg)](https://jitpack.io/#hamidamirhajlo/html-creator)
+
 
 
 # html-creator
