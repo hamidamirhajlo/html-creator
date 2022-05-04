@@ -66,7 +66,7 @@ see example of code
             .build()
 
         fun webApp(args: String) = HtmlCreator.create {
-            lang = "fa"
+          
             head {
 
                 link {
