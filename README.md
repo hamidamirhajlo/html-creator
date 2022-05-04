@@ -49,7 +49,7 @@ Step 2. Add the dependency
 
 ```
 	dependencies {
-	        implementation 'com.github.hamidamirhajlo:html-creator:v1.0.0'
+	        implementation 'com.github.hamidamirhajlo:html-creator:1.0.0'
 	}
 ```
  
