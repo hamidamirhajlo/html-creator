@@ -4,8 +4,13 @@
 
 # html-creator
 
-a android project for write HTML & CSS in kotlin code, you can show page in webView or extract code for other useage.
+an android library for easy use of HTML & CSS in kotlin code.
+you can show page in webView or extract code for other useage.
 
+
+# Sample
+
+Show in WebView 
 ![screenshoot](https://github.com/hamidamirhajlo/html-creator/blob/master/screenshot/app.jpeg)
 
 # How to use
